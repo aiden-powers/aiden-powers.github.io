@@ -12,6 +12,10 @@ hr {
   font-style: normal;
 }
 
+.site-header {
+  background: #ECA414;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
