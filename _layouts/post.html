@@ -13,8 +13,7 @@ layout: default
     <meta name="twitter:title" content="{{ page.title | escape }}">
 
     <p class="post-meta">
-    <p class="image-expected-filename">https://raw.githubusercontent.com/aiden-powers/aiden-powers-open-graphics/refs/heads/main/aiden-powers-github-io/{{ page.path | replace: '.md', '.png' | replace: '/', '_' }}</p>
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
